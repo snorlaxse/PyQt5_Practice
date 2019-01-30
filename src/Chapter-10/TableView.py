@@ -2,24 +2,15 @@
 @FileName: TableView.py
 @Author: CaptainSE
 @Time: 2019-01-28 
-@Desc: 
+@Desc: 显示二维表数据（QTableView控件）
 
 '''
 '''
-
-显示二维表数据（QTableView控件）
-
-数据源
-
-Model
-
 需要创建QTableView实例和一个数据源（Model），然后将两者关联
 
 MVC：Model   Viewer   Controller
 
 MVC的目的是将后端的数据和前端页面的耦合度降低
-
-
 
 '''
 from PyQt5.QtWidgets import *
@@ -34,10 +25,13 @@ class TableView(QWidget):
         self.setWindowTitle("QTableView表格视图控件演示")
         self.resize(500, 300);
 
+        # Model
         self.model = QStandardItemModel(4, 3)
         self.model.setHorizontalHeaderLabels(['id', '姓名', '年龄'])
 
+        # QTableView控件
         self.tableview = QTableView()
+
         # 关联QTableView控件和Model
         self.tableview.setModel(self.model)
 
@@ -58,6 +52,7 @@ class TableView(QWidget):
 
         layout = QVBoxLayout()
         layout.addWidget(self.tableview)
+
         self.setLayout(layout)
 
 

@@ -2,15 +2,7 @@
 @FileName: Span.py
 @Author: CaptainSE
 @Time: 2019-01-28 
-@Desc: 
-
-'''
-
-'''
-
-合并单元格
-
-setSpan(row,col,要合并的行数，要合并的列数）
+@Desc:  合并单元格  setSpan(row,col,要合并的行数，要合并的列数）
 
 '''
 

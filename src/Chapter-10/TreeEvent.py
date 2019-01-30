@@ -35,12 +35,15 @@ class TreeEvent(QMainWindow):
         child3 = QTreeWidgetItem(child2)
         child3.setText(0,'child3')
         child3.setText(1,'3')
+
         self.tree.clicked.connect(self.onTreeClicked)
         self.setCentralWidget(self.tree)
+
     def onTreeClicked(self,index):
         item = self.tree.currentItem()
         print(index.row())
         print('key=%s,value=%s' % (item.text(0),item.text(1)))
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

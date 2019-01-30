@@ -31,7 +31,7 @@ class CellImageSize(QWidget):
 
         # 让列的宽度和图片的宽度相同
         for i in range(3):
-            tablewidget.setColumnWidth(i,300)
+            tablewidget.setColumnWidth(i,150)
 
         # 让行的高度和图片的高度相同
         for i in range(15):

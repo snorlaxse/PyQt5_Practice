@@ -76,14 +76,12 @@ class ModifyTree(QWidget):
         item.setText(1, '值已经被修改')
 
 
-
     def deleteNode(self):
         print('删除节点')
         item = self.tree.currentItem()
         root = self.tree.invisibleRootItem()
         for item in self.tree.selectedItems():
             (item.parent() or root).removeChild(item)
-
 
 
 

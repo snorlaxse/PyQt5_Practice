@@ -16,7 +16,7 @@ class CellSize(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle("QTableWidget 例子")
+        self.setWindowTitle("QTableWidget之设置单元格尺寸")
         self.resize(530, 300);
         layout = QHBoxLayout()
         tableWidget = QTableWidget()

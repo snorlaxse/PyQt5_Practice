@@ -2,15 +2,11 @@
 @FileName: TableWidget.py
 @Author: CaptainSE
 @Time: 2019-01-28 
-@Desc: 
+@Desc: 扩展的表格控件（QTableWidget）
 
 '''
 
 '''
-
-扩展的表格控件（QTableWidget）
-
-QTableView
 
 每一个Cell（单元格）是一个QTableWidgetItem
 
@@ -28,7 +24,9 @@ class TableWidgetDemo(QWidget):
     def initUI(self):
         self.setWindowTitle("QTableWidget演示")
         self.resize(430, 230);
+
         layout = QHBoxLayout()
+
         tablewidget = QTableWidget()
         tablewidget.setRowCount(4)
         tablewidget.setColumnCount(3)

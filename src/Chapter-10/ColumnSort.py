@@ -6,7 +6,7 @@
 
 '''
 '''
-按列排序
+
 
 1. 按哪一列排序
 2. 排序类型：升序或降序
@@ -76,7 +76,9 @@ class ColumnSort(QWidget):
             self.orderType = Qt.AscendingOrder
         else:
             self.orderType = Qt.DescendingOrder
+
         self.tableWidget.sortItems(2,self.orderType)
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     example = ColumnSort()

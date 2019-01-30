@@ -13,7 +13,7 @@ class DrawText(QWidget):
 
     def paintEvent(self, event): # 伸缩窗口大小时，该方法会不断调用
         painter = QPainter(self)
-        painter.begin(self)
+        painter.begin(self)  # self 表示绘制至当前窗口
         painter.setPen(QColor(150,43,5)) #设置画笔颜色
         painter.setFont(QFont('SimSun',25)) #设置字体、大小
 

@@ -2,13 +2,11 @@
 @FileName: PlaceControlInCell.py
 @Author: CaptainSE
 @Time: 2019-01-28 
-@Desc: 
+@Desc: 在单元格中放置控件
 
 '''
 
 '''
-
-在单元格中放置控件
 
 setItem：将文本放到单元格中
 setCellWidget：将控件放到单元格中
@@ -53,7 +51,6 @@ class PlaceControlInCell(QWidget):
         tableWidget.setCellWidget(0,2,modifyButton)
 
         self.setLayout(layout)
-
 
 
 if __name__ == '__main__':

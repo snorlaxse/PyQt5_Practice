@@ -2,13 +2,11 @@
 @FileName: TableWidgetContextMenu.py
 @Author: CaptainSE
 @Time: 2019-01-28 
-@Desc: 
+@Desc: 在表格中显示上下文菜单
 
 '''
 
 '''
-
-在表格中显示上下文菜单
 
 1.  如何弹出菜单
 2.  如果在满足条件的情况下弹出菜单
@@ -17,9 +15,8 @@ QMenu.exec_
 '''
 
 import sys
-from PyQt5.QtWidgets import (QMenu, QPushButton, QWidget, QTableWidget, QHBoxLayout, QApplication, QTableWidgetItem,
-                             QHeaderView)
-from PyQt5.QtCore import QObject, Qt
+from PyQt5.QtWidgets import (QMenu, QWidget, QTableWidget, QHBoxLayout, QApplication, QTableWidgetItem,QHeaderView)
+from PyQt5.QtCore import Qt
 
 
 class TableWidgetContextMenu(QWidget):
@@ -75,7 +72,7 @@ class TableWidgetContextMenu(QWidget):
         self.setLayout(layout)
 
     def generateMenu(self,pos):
-        print(pos)
+        print(pos)  # 相对于窗口
 
         for i in self.tableWidget.selectionModel().selection().indexes():
             rowNum = i.row()
@@ -86,7 +83,7 @@ class TableWidgetContextMenu(QWidget):
             item2 = menu.addAction("菜单项2")
             item3 = menu.addAction("菜单项3")
             screenPos = self.tableWidget.mapToGlobal(pos)
-            print(screenPos)
+            print(screenPos) # 相对于屏幕
             # 被阻塞
             action = menu.exec(screenPos)
             if action == item1:
@@ -103,7 +100,6 @@ class TableWidgetContextMenu(QWidget):
                                         self.tableWidget.item(rowNum, 2).text())
             else:
                 return
-
 
 
 

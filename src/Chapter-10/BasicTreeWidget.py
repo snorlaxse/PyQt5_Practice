@@ -8,7 +8,7 @@
 
 import sys
 from PyQt5.QtWidgets import *
-from PyQt5.QtGui import QIcon, QBrush, QColor
+from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import Qt
 
 
@@ -48,7 +48,7 @@ class BasicTreeWidget(QMainWindow):
         child3.setIcon(0,QIcon('./images/music.png'))
 
 
-        self.tree.expandAll()
+        self.tree.expandAll() # 显示方式：expand
 
         self.setCentralWidget(self.tree)
 
