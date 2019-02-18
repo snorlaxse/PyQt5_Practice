@@ -8,11 +8,11 @@
 
 from PyQt5.QtCore import QThread ,  pyqtSignal,  QDateTime
 from PyQt5.QtWidgets import QApplication,  QDialog,  QLineEdit
-import time
-import sys
+import time,sys
 
 
 class BackendThread(QThread):
+
     update_date = pyqtSignal(str)
 
     def run(self):
@@ -23,6 +23,7 @@ class BackendThread(QThread):
             time.sleep(1)
 
 class ThreadUpdateUI(QDialog):
+
     def __init__(self):
         QDialog.__init__(self)
         self.setWindowTitle('多线程更新UI数据')
@@ -31,7 +32,9 @@ class ThreadUpdateUI(QDialog):
         self.input.resize(400,100)
 
         self.initUI()
+
     def initUI(self):
+
         self.backend = BackendThread()
         self.backend.update_date.connect(self.handleDisplay)
 

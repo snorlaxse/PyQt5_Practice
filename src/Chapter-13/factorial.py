@@ -2,11 +2,12 @@
 @FileName: factorial.py
 @Author: CaptainSE
 @Time: 2019-01-31 
-@Desc: 
+@Desc: 阶乘计算
 
 '''
 
 from PyQt5.QtCore import *
+
 class Factorial(QObject):
     @pyqtSlot(int, result=int)
     def factorial(self,n):

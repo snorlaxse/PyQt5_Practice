@@ -2,7 +2,7 @@
 @FileName: LambdaSlotArg.py
 @Author: CaptainSE
 @Time: 2019-01-31 
-@Desc: 
+@Desc: 使用Lambda表达式为槽函数传递参数
 
 '''
 '''
@@ -17,7 +17,6 @@ fun()
 
 fun1 = lambda x,y:print(x,y)
 fun1("a","b")
-
 
 '''
 
@@ -39,6 +38,7 @@ class LambdaSlotArg(QMainWindow):
         layout = QHBoxLayout()
         layout.addWidget(button1)
         layout.addWidget(button2)
+
         mainFrame = QWidget()
         mainFrame.setLayout(layout)
         self.setCentralWidget(mainFrame)

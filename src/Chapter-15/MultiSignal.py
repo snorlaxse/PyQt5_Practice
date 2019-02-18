@@ -36,24 +36,19 @@ class MultiSignal(QObject):
         self.signal5.emit({"name":"Bill","age":30})
         self.signal6[str].emit("test")
         self.signal6[int,str].emit(100,"mytest")
+
     def signalCall1(self):
         print("signal1 emit")
-
     def signalCall2(self,val):
         print("signal2 emit,value:", val)
-
     def signalCall3(self,val,text):
         print("signal3 emit,value:", val,text)
-
     def signalCall4(self,val):
         print("signal4 emit,value:", val)
-
     def signalCall5(self,val):
         print("signal5 emit,value:", val)
-
     def signalCall6(self,val,text):
         print("signal6 emit,value:", val,text)
-
     def signalCall6Overload(self,val):
         print("signal6 overload emit,value:", val)
 

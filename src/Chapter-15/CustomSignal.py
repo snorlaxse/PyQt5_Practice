@@ -7,6 +7,7 @@
 '''
 
 from PyQt5.QtCore import *
+
 class MyTypeSignal(QObject):
     # 定义一个信号
     sendmsg = pyqtSignal(object)
@@ -23,10 +24,10 @@ class MyTypeSignal(QObject):
 
 class MySlot(QObject):
     def get(self,msg):
-        print("信息：" + msg)
+        print("信息：" + msg) # 信息：Hello PyQt5
     def get1(self,msg,a,b):
-        print(msg)
-        print(a+b)
+        print(msg) # hello
+        print(a+b) # 7
 
 
 if __name__ == '__main__':
@@ -36,9 +37,8 @@ if __name__ == '__main__':
     send.sendmsg.connect(slot.get)
     send.sendmsg1.connect(slot.get1)
 
-
-    send.run()
-    send.run1()
+    send.run() # 信息：Hello PyQt5
+    send.run1() # hello # 7
 
     send.sendmsg.disconnect(slot.get)
-    send.run()
+    send.run()  # 无输出

@@ -25,6 +25,7 @@ class PartialSlotArg(QMainWindow):
         layout = QHBoxLayout()
         layout.addWidget(button1)
         layout.addWidget(button2)
+
         mainFrame = QWidget()
         mainFrame.setLayout(layout)
         self.setCentralWidget(mainFrame)

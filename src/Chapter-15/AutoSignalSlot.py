@@ -2,12 +2,11 @@
 @FileName: AutoSignalSlot.py
 @Author: CaptainSE
 @Time: 2019-01-31 
-@Desc: 
+@Desc: 信号与槽自动连接
 
 '''
 
 '''
-信号与槽自动连接
 
 on_objectname_signalname
 
@@ -21,21 +20,27 @@ import sys
 
 class AutoSignalSlot(QWidget):
     def __init__(self):
+
         super(AutoSignalSlot,self).__init__()
+
         self.okButton = QPushButton("ok",self)
         self.okButton.setObjectName("okButton")
-        self.okButton1 = QPushButton("cancel",self)
-        self.okButton1.setObjectName("cancelButton")
+
+        self.cancelButton = QPushButton("cancel",self)
+        self.cancelButton.setObjectName("cancelButton")
+
         layout = QHBoxLayout()
         layout.addWidget(self.okButton)
         self.setLayout(layout)
-        QtCore.QMetaObject.connectSlotsByName(self)
-        #self.okButton.clicked.connect(self.on_okButton_clicked)
 
+        QtCore.QMetaObject.connectSlotsByName(self)
+        # self.okButton.clicked.connect(self.on_okButton_clicked)
+
+    # AutoSignalSlot
     @QtCore.pyqtSlot()
     def on_okButton_clicked(self):
         print("点击了ok按钮")
-AutoSignalSlot
+
     @QtCore.pyqtSlot()
     def on_cancelButton_clicked(self):
         print("点击了cancel按钮")

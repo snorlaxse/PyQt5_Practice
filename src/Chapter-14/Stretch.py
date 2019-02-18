@@ -28,6 +28,7 @@ class Stretch(QWidget) :
 
         layout.addStretch(2)
         layout.addWidget(btn2)
+
         layout.addStretch(3)
         layout.addWidget(btn3)
 

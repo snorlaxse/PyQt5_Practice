@@ -2,14 +2,11 @@
 @FileName: PyQtCallJS.py
 @Author: CaptainSE
 @Time: 2019-01-31 
-@Desc: 
+@Desc: PyQt5调用JavaScript代码
 
 '''
 
 '''
-
-PyQt5调用JavaScript代码
-
 
 PyQt5和JavaScript交互
 

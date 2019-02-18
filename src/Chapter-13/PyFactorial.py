@@ -2,13 +2,11 @@
 @FileName: PyFactorial.py
 @Author: CaptainSE
 @Time: 2019-01-31 
-@Desc: 
+@Desc: JavaScript调用Python函数计算阶乘
 
 '''
 
 '''
-
-JavaScript调用Python函数计算阶乘
 
 将Python的一个对象映射到JavaScript中
 

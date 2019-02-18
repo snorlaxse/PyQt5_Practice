@@ -7,7 +7,7 @@
 '''
 
 
-import sys,math
+import sys
 from PyQt5.QtWidgets import *
 
 

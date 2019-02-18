@@ -9,8 +9,6 @@
 import sys
 from PyQt5.QtWidgets import *
 
-
-
 class RightBottomButton(QWidget) :
     def __init__(self):
         super(RightBottomButton,self).__init__()

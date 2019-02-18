@@ -10,16 +10,18 @@
 from PyQt5.QtCore import *
 
 class NNSignal(QObject):
+
     signal1 = pyqtSignal()
     signal2 = pyqtSignal(int)
     signal3 = pyqtSignal()
+
     def __init__(self):
         super(NNSignal,self).__init__()
 
         self.signal1.connect(self.call1)
         self.signal1.connect(self.call11)
-
         self.signal3.connect(self.call1)
+
         self.signal1.emit()
         self.signal3.emit()
         '''
@@ -45,5 +47,6 @@ class NNSignal(QObject):
 
     def call2(self,val):
         print("call2 emit:",val)
+
 if __name__ == '__main__':
     nnSignal = NNSignal()

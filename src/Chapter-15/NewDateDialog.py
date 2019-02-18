@@ -2,7 +2,7 @@
 @FileName: NewDateDialog.py
 @Author: CaptainSE
 @Time: 2019-01-31 
-@Desc: 
+@Desc: To MultiWindow2.py
 
 '''
 

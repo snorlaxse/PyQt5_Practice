@@ -4,10 +4,10 @@
 @Time: 2019-01-31 
 @Desc: 设置控件的对齐方式
 
-
 '''
 
-import sys,math
+
+import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import Qt
 
@@ -18,11 +18,11 @@ class HBoxLayoutAlign(QWidget) :
         self.setWindowTitle("水平盒布局")
 
         hlayout = QHBoxLayout()
-        hlayout.addWidget(QPushButton('按钮1'),2,Qt.AlignLeft | Qt.AlignTop)
-        hlayout.addWidget(QPushButton('按钮2'),4,Qt.AlignLeft | Qt.AlignTop)
-        hlayout.addWidget(QPushButton('按钮3'),1,Qt.AlignLeft | Qt.AlignTop)
-        hlayout.addWidget(QPushButton('按钮4'),1,Qt.AlignLeft | Qt.AlignBottom)
-        hlayout.addWidget(QPushButton('按钮5'),1,Qt.AlignLeft | Qt.AlignBottom)
+        hlayout.addWidget(QPushButton('按钮1'), 2, Qt.AlignLeft | Qt.AlignTop)
+        hlayout.addWidget(QPushButton('按钮2'), 4, Qt.AlignLeft | Qt.AlignTop)
+        hlayout.addWidget(QPushButton('按钮3'), 1, Qt.AlignLeft | Qt.AlignTop)
+        hlayout.addWidget(QPushButton('按钮4'), 1, Qt.AlignLeft | Qt.AlignBottom)
+        hlayout.addWidget(QPushButton('按钮5'), 1, Qt.AlignLeft | Qt.AlignBottom)
         hlayout.setSpacing(40)
         self.setLayout(hlayout)
 

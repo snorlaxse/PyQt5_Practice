@@ -2,12 +2,12 @@
 @FileName: MultiWindow2.py
 @Author: CaptainSE
 @Time: 2019-01-31 
-@Desc: 
+@Desc: 多窗口交互（2）：使用信号与槽
+
 
 '''
 '''
 
-多窗口交互（2）：使用信号与槽
 
 如果一个窗口A与另一个窗口B交互，那么A尽量不要直接访问B窗口中的控件，
 应该访问B窗口中的信号，并指定与信号绑定的槽函数
@@ -23,6 +23,7 @@ from PyQt5.QtWidgets import *
 from NewDateDialog import NewDateDialog
 
 class MultiWindow2(QWidget):
+
     def __init__(self, parent=None):
         super(MultiWindow2, self).__init__(parent)
         self.resize(400, 90)
@@ -39,7 +40,6 @@ class MultiWindow2(QWidget):
         grid = QGridLayout()
         grid.addWidget(self.lineEdit_inner)
         grid.addWidget(self.lineEdit_emit)
-
         grid.addWidget(self.open_btn)
         self.setLayout(grid)
 

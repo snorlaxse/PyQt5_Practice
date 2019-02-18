@@ -14,6 +14,7 @@ class OverrideSlot(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Override（覆盖）槽函数")
+
     def keyPressEvent(self, e):
         if e.key() == Qt.Key_Escape:
             self.close()
