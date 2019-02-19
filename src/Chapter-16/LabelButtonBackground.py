@@ -16,7 +16,6 @@ class LabelButtonBackground(QWidget):
         label1 = QLabel(self)
         label1.setToolTip('这是一个文本标签')
         label1.setStyleSheet('QLabel{border-image:url(./images/python.jpg);}')
-
         label1.setFixedWidth(476)
         label1.setFixedHeight(259)
 

@@ -33,6 +33,17 @@ class AnimationWindows(QWidget):
         self.setMask(self.pix.mask())
         self.dragPosition = None
 
+    # 鼠标双击事件
+    def mouseDoubleClickEvent(self, event):
+        if event.button() == 1:
+            self.i += 1
+            self.mypix()
+
+    # 每500毫秒修改paint
+    def timeChange(self):
+        self.i += 1
+        self.mypix()
+
     def mousePressEvent(self, event):
         if event.button() == Qt.LeftButton:
             self.m_drag = True
@@ -52,17 +63,6 @@ class AnimationWindows(QWidget):
     def paintEvent(self, event):
         painter = QPainter(self)
         painter.drawPixmap(0, 0, self.pix.width(), self.pix.height(), self.pix)
-
-    # 鼠标双击事件
-    def mouseDoubleClickEvent(self, event):
-        if event.button() == 1:
-            self.i += 1
-            self.mypix()
-
-    # 每500毫秒修改paint
-    def timeChange(self):
-        self.i += 1
-        self.mypix()
 
 
 if __name__ == '__main__':

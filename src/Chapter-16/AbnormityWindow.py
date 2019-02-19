@@ -2,17 +2,14 @@
 @FileName: AbnormityWindow.py
 @Author: CaptainSE
 @Time: 2019-01-31 
-@Desc: 
+@Desc: 实现不规则窗口（异形窗口）
 
 '''
 '''
-
-实现不规则窗口（异形窗口）
 
 通过mask实现异形窗口
 
 需要一张透明的png图，透明部分被扣出，形成一个非矩形的区域
-
 
 移动和关闭不规则窗口
 '''
@@ -33,12 +30,12 @@ class AbnormityWindow(QWidget):
     def mousePressEvent(self, event):
         if event.button() == Qt.LeftButton:
             self.m_drag = True
-
             self.m_DragPosition = event.globalPos() - self.pos()
             self.setCursor(QCursor(Qt.OpenHandCursor))
-            print(event.globalPos())  #
-            print(event.pos())
-            print(self.pos())
+            print("event.globalPos()",event.globalPos())  #
+            print("event.pos()",event.pos())
+            print("self.pos()",self.pos())
+
         if event.button() == Qt.RightButton:
             self.close()
 
@@ -53,9 +50,11 @@ class AbnormityWindow(QWidget):
     def mouseReleaseEvent(self, QMouseEvent):
         self.m_drag = False
         self.setCursor(QCursor(Qt.ArrowCursor))
+
     def paintEvent(self, event):
         painter = QPainter(self)
         painter.drawPixmap(0,0,self.pix.width(),self.pix.height(),QPixmap('./images/screen1.jpg'))
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     form = AbnormityWindow()

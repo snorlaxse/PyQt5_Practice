@@ -7,8 +7,7 @@
 '''
 '''
 
-QSS（Qt Style Sheets）
-Qt样式表
+QSS（Qt Style Sheets） Qt样式表
 
 用于设置控件的样式
 
@@ -27,7 +26,6 @@ class BasicQSS(QWidget):
         btn1.setText("按钮1")
         btn2 = QPushButton(self)
         btn2.setText("按钮2")
-
         btn3 = QPushButton(self)
         btn3.setText("按钮3")
 
@@ -44,7 +42,7 @@ if __name__ == "__main__":
     # 选择器
     qssStyle = '''
         QPushButton {
-            background-color:red
+            background-color:pink
         }
     '''
     form.setStyleSheet(qssStyle)

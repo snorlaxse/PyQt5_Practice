@@ -2,14 +2,8 @@
 @FileName: gitanim.py
 @Author: CaptainSE
 @Time: 2019-01-31 
-@Desc: 
+@Desc: 装载Gif动画  （QMovie）
 
-'''
-'''
-
-装载Gif动画
-
-QMovie
 '''
 
 import sys

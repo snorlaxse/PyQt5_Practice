@@ -20,6 +20,7 @@ class AnimWindow(QWidget):
         self.btn = QPushButton('展开', self)
         self.btn.setGeometry(10, 10, 60, 35)
         self.btn.clicked.connect(self.change)
+
     def change(self):
         currentHeight = self.height()
         if self.OrigHeight == currentHeight:

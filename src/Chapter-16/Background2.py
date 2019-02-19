@@ -25,14 +25,15 @@ class Background2(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("绘制背景图片")
+
     def paintEvent(self, event):
         painter = QPainter(self)
         pixmap = QPixmap('./images/screen1.jpg')
 
         painter.drawPixmap(self.rect(),pixmap)
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     form = Background2()
-
     form.show()
     sys.exit(app.exec_())

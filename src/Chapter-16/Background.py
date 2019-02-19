@@ -5,6 +5,8 @@
 @Desc: 使用多种方式设置窗口背景色和背景图片
 
 '''
+from PyQt5 import Qt
+from PyQt5.QtGui import QPalette, QBrush, QPixmap
 
 '''
 
@@ -32,10 +34,10 @@ win.setStyleSheet("#MainWindow{background-color:yellow}")
 '''
 
 # 通过QPalette设置背景图片和背景颜色
-#palette = QPalette()
-#palette.setBrush(QPalette.Background,QBrush(QPixmap("./images/python.jpg")))
-#palette.setColor(QPalette.Background,Qt.red)
-#win.setPalette(palette)
+# palette = QPalette()
+# palette.setBrush(QPalette.Background,QBrush(QPixmap("./images/python.jpg")))
+# palette.setColor(QPalette.Background,Qt.red)
+# win.setPalette(palette)
 
 win.show()
 sys.exit(app.exec())

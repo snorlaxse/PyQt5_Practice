@@ -2,12 +2,11 @@
 @FileName: Drawing.py
 @Author: CaptainSE
 @Time: 2019-01-31 
-@Desc: 
+@Desc: 项目实战：实现绘图应用
 
 '''
 '''
 
-项目实战：实现绘图应用
 
 需要解决3个核心内容
 1. 如何绘图
@@ -44,7 +43,6 @@ class Drawing(QWidget):
         self.initUi()
 
     def initUi(self):
-
         self.resize(600, 600)
         # 画布大小为400*400，背景为白色
         self.pix = QPixmap(600, 600)
@@ -54,8 +52,7 @@ class Drawing(QWidget):
         pp = QPainter(self.pix)
         # 根据鼠标指针前后两个位置绘制直线
         pp.drawLine(self.lastPoint, self.endPoint)
-        # 让前一个坐标值等于后一个坐标值，
-        # 这样就能实现画出连续的线
+        # 让前一个坐标值等于后一个坐标值，这样就能实现画出连续的线
         self.lastPoint = self.endPoint
         painter = QPainter(self)
         painter.drawPixmap(0, 0, self.pix)

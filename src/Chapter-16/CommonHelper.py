@@ -2,7 +2,7 @@
 @FileName: CommonHelper.py
 @Author: CaptainSE
 @Time: 2019-01-31 
-@Desc: 
+@Desc: For LoadQSS.py
 
 '''
 
