@@ -27,6 +27,11 @@ class AbnormityWindow(QWidget):
         self.resize(self.pix.size())
         self.setMask(self.pix)
 
+
+    def paintEvent(self, event):
+        painter = QPainter(self)
+        painter.drawPixmap(0,0,self.pix.width(),self.pix.height(),QPixmap('./images/screen1.jpg'))
+
     def mousePressEvent(self, event):
         if event.button() == Qt.LeftButton:
             self.m_drag = True
@@ -51,9 +56,6 @@ class AbnormityWindow(QWidget):
         self.m_drag = False
         self.setCursor(QCursor(Qt.ArrowCursor))
 
-    def paintEvent(self, event):
-        painter = QPainter(self)
-        painter.drawPixmap(0,0,self.pix.width(),self.pix.height(),QPixmap('./images/screen1.jpg'))
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

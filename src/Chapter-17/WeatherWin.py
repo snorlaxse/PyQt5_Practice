@@ -2,7 +2,7 @@
 @FileName: WeatherWin.py
 @Author: CaptainSE
 @Time: 2019-01-31 
-@Desc: 
+@Desc: For CallWeatherWin.py
 
 '''
 # -*- coding: utf-8 -*-
@@ -13,7 +13,7 @@
 #
 # WARNING! All changes made in this file will be lost!
 
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtCore, QtWidgets
 
 class Ui_Form(object):
     def setupUi(self, Form):

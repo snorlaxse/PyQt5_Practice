@@ -6,13 +6,11 @@ pip Install pyqtgraph
 '''
 
 
-from PyQt5.QtCore import pyqtSlot
 from PyQt5.QtWidgets import QMainWindow, QApplication
 import pyqtgraph as pg
-from pyqtgraph_pyqt import Ui_MainWindow
 import numpy as np
-
-
+from pyqtgraph_pyqt import Ui_MainWindow
+import sys
 
 class MainWindow(QMainWindow, Ui_MainWindow):
 
@@ -23,14 +21,12 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         pg.setConfigOption('background', '#f0f0f0')
         pg.setConfigOption('foreground', 'd')
 
-
         self.setupUi(self)
         self.draw1()
         self.draw2()
 
 
     def draw1(self):
-
         self.pyqtgraph1.clear()
 
         '''第一种绘图方式'''
@@ -47,8 +43,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
 
     def draw2(self):
-
-
         plt = self.pyqtgraph2.addPlot(title='绘制条状图')
         x = np.arange(10)
         print(x)
@@ -75,8 +69,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
 
 if __name__ == "__main__":
-    import sys
-
     app = QApplication(sys.argv)
     ui = MainWindow()
     ui.show()

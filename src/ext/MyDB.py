@@ -4,7 +4,6 @@
 
 '''
 
-import sys
 
 from PyQt5.QtSql import QSqlDatabase,QSqlQuery
 

@@ -10,12 +10,9 @@ limit 10,20
 '''
 
 import sys
-import re
 from PyQt5.QtWidgets import*
 from PyQt5.QtCore import Qt
 from PyQt5.QtSql import *
-
-
 
 
 class DataGrid(QWidget):
@@ -245,7 +242,6 @@ class DataGrid(QWidget):
     def onSwitchPageButtonClick(self):
         # 得到输入字符串
         szText = self.switchPageLineEdit.text()
-
 
         # 得到页数
         pageIndex = int(szText)

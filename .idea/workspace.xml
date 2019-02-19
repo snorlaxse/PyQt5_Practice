@@ -2,22 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29e89f93-0f73-463e-b4fa-51eb35665426" name="Default Changelist" comment="Chapter-16">
-      <change afterPath="$PROJECT_DIR$/src/Chapter-16/style.qss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter-16/MoveWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter-16/OpacityWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter-16/QSSSelector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter-16/QSSSubControl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter-16/ScaleImage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter-16/WindowMaxMin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter-16/WindowPattern.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chapter-16/WindowStyle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chapter-16/AbnormityWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter-16/AbnormityWindow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter-16/AnimWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter-16/AnimWindow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter-16/AnimationWindows.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter-16/AnimationWindows.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter-16/Background.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter-16/Background.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter-16/Background1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter-16/Background1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter-16/Background2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter-16/Background2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter-16/BasicQSS.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter-16/BasicQSS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter-16/CommonHelper.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter-16/CommonHelper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter-16/DarkStyleSheet.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter-16/DarkStyleSheet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter-16/Drawing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter-16/Drawing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter-16/LabelButtonBackground.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter-16/LabelButtonBackground.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter-16/LoadQSS.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter-16/LoadQSS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter-16/gitanim.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter-16/gitanim.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/dcm_viewer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter-17/CallWeatherWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter-17/CallWeatherWin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter-17/WeatherWin.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter-17/WeatherWin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter-17/getWeatherInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter-17/getWeatherInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ext/DataGrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ext/DataGrid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ext/DataGrid1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ext/DataGrid1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ext/Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ext/Graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ext/MyDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ext/MyDB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ext/db/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/src/ext/db/database.db" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +29,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PyQt5_Practice$AbnormityWindow.coverage" NAME="AbnormityWindow Coverage Results" MODIFIED="1550559685482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-16" />
+    <SUITE FILE_PATH="coverage/PyQt5_Practice$AbnormityWindow.coverage" NAME="AbnormityWindow Coverage Results" MODIFIED="1550573957971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-16" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$QScrollBar.coverage" NAME="QScrollBar Coverage Results" MODIFIED="1548695422324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-11" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$RightBottomButton.coverage" NAME="RightBottomButton Coverage Results" MODIFIED="1550494181924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-14" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$LabelButtonBackground.coverage" NAME="LabelButtonBackground Coverage Results" MODIFIED="1550562371119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-16" />
@@ -38,9 +41,12 @@
     <SUITE FILE_PATH="coverage/PyQt5_Practice$RunMainWin_AbsoluteLayout.coverage" NAME="RunMainWin_AbsoluteLayout Coverage Results" MODIFIED="1548314997082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-2" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$QuitApplication.coverage" NAME="QuitApplication Coverage Results" MODIFIED="1548398723004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-3" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$VBoxLayout.coverage" NAME="VBoxLayout Coverage Results" MODIFIED="1550484340275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-14" />
+    <SUITE FILE_PATH="coverage/PyQt5_Practice$CallWeatherWin.coverage" NAME="CallWeatherWin Coverage Results" MODIFIED="1550573435752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-17" />
+    <SUITE FILE_PATH="coverage/PyQt5_Practice$DataGrid.coverage" NAME="DataGrid Coverage Results" MODIFIED="1550593807010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ext" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$QPushButtonDemo.coverage" NAME="QPushButtonDemo Coverage Results" MODIFIED="1548420643309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-3" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$QDateTimeEdit.coverage" NAME="QDateTimeEdit Coverage Results" MODIFIED="1548580787833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-7" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$TableWidget.coverage" NAME="TableWidget Coverage Results" MODIFIED="1548854102656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-10" />
+    <SUITE FILE_PATH="coverage/PyQt5_Practice$MyDB.coverage" NAME="MyDB Coverage Results" MODIFIED="1550593426909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ext" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$QCheckBoxDemo.coverage" NAME="QCheckBoxDemo Coverage Results" MODIFIED="1548421637789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-3" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$QFileDialogDemo.coverage" NAME="QFileDialogDemo Coverage Results" MODIFIED="1548510884109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-4" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$FormLayout.coverage" NAME="FormLayout Coverage Results" MODIFIED="1550495019777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-14" />
@@ -50,7 +56,9 @@
     <SUITE FILE_PATH="coverage/PyQt5_Practice$StatusBar.coverage" NAME="StatusBar Coverage Results" MODIFIED="1548590770533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-8" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$TreeView.coverage" NAME="TreeView Coverage Results" MODIFIED="1548864415265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-10" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$gitanim.coverage" NAME="gitanim Coverage Results" MODIFIED="1550562177788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-16" />
+    <SUITE FILE_PATH="coverage/PyQt5_Practice$QSSSelector.coverage" NAME="QSSSelector Coverage Results" MODIFIED="1550578721877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-16" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$DrapDrop.coverage" NAME="DrapDrop Coverage Results" MODIFIED="1548578194109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-6" />
+    <SUITE FILE_PATH="coverage/PyQt5_Practice$getWeatherInfo.coverage" NAME="getWeatherInfo Coverage Results" MODIFIED="1550573432793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-17" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$QDockWidget.coverage" NAME="QDockWidget Coverage Results" MODIFIED="1548660287545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-11" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$Stretch1.coverage" NAME="Stretch1 Coverage Results" MODIFIED="1550484979147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-14" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$LambdaSlotArg__1_.coverage" NAME="LambdaSlotArg (1) Coverage Results" MODIFIED="1550500483223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../Todo/pyqt5-master/src/SignalSlot" />
@@ -69,6 +77,7 @@
     <SUITE FILE_PATH="coverage/PyQt5_Practice$MultiWindows.coverage" NAME="MultiWindows Coverage Results" MODIFIED="1548661109856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-11" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$InnerHTML.coverage" NAME="InnerHTML Coverage Results" MODIFIED="1550479968227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-13" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$AutoCloseWindow.coverage" NAME="AutoCloseWindow Coverage Results" MODIFIED="1548662851068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-12" />
+    <SUITE FILE_PATH="coverage/PyQt5_Practice$DataGrid1.coverage" NAME="DataGrid1 Coverage Results" MODIFIED="1550594008622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ext" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$GridForm.coverage" NAME="GridForm Coverage Results" MODIFIED="1550494924480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-14" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$ColumnSort.coverage" NAME="ColumnSort Coverage Results" MODIFIED="1548862973017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-10" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$CenterForm.coverage" NAME="CenterForm Coverage Results" MODIFIED="1548396956273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-3" />
@@ -86,7 +95,9 @@
     <SUITE FILE_PATH="coverage/PyQt5_Practice$WinSignal.coverage" NAME="WinSignal Coverage Results" MODIFIED="1550498290799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-15" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$Calc.coverage" NAME="Calc Coverage Results" MODIFIED="1550494735525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-14" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$PartialSlotArg.coverage" NAME="PartialSlotArg Coverage Results" MODIFIED="1550500440421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-15" />
+    <SUITE FILE_PATH="coverage/PyQt5_Practice$Graph.coverage" NAME="Graph Coverage Results" MODIFIED="1550593114671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ext" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$DataLocation.coverage" NAME="DataLocation Coverage Results" MODIFIED="1548857430948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-10" />
+    <SUITE FILE_PATH="coverage/PyQt5_Practice$MoveWindow.coverage" NAME="MoveWindow Coverage Results" MODIFIED="1550578009822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-16" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$QLineEditEchoMode.coverage" NAME="QLineEditEchoMode Coverage Results" MODIFIED="1548416697707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-3" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$QTabWidget.coverage" NAME="QTabWidget Coverage Results" MODIFIED="1548659127935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-11" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$Tooltip.coverage" NAME="Tooltip Coverage Results" MODIFIED="1548404239877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-3" />
@@ -95,6 +106,7 @@
     <SUITE FILE_PATH="coverage/PyQt5_Practice$HBoxLayoutAlign.coverage" NAME="HBoxLayoutAlign Coverage Results" MODIFIED="1550483954577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-14" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$CellTextAlignment.coverage" NAME="CellTextAlignment Coverage Results" MODIFIED="1548858354757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-10" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$AbsoluteLayout.coverage" NAME="AbsoluteLayout Coverage Results" MODIFIED="1550478540195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-14" />
+    <SUITE FILE_PATH="coverage/PyQt5_Practice$WindowMaxMin.coverage" NAME="WindowMaxMin Coverage Results" MODIFIED="1550591450286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-16" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$SignalSlotDemo.coverage" NAME="SignalSlotDemo Coverage Results" MODIFIED="1550496041102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-15" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$RunMainWin_MenuToolbar.coverage" NAME="RunMainWin_MenuToolbar Coverage Results" MODIFIED="1548335349215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-2" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$First.coverage" NAME="First Coverage Results" MODIFIED="1548250281382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -105,6 +117,7 @@
     <SUITE FILE_PATH="coverage/PyQt5_Practice$Background1.coverage" NAME="Background1 Coverage Results" MODIFIED="1550561567178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-16" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$AnimWindow.coverage" NAME="AnimWindow Coverage Results" MODIFIED="1550563341305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-16" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$ClipBoard.coverage" NAME="ClipBoard Coverage Results" MODIFIED="1548579072623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-6" />
+    <SUITE FILE_PATH="coverage/PyQt5_Practice$QSSSubControl.coverage" NAME="QSSSubControl Coverage Results" MODIFIED="1550590833431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-16" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$QMessageBox.coverage" NAME="QMessageBox Coverage Results" MODIFIED="1548505567331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-4" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$ListView.coverage" NAME="ListView Coverage Results" MODIFIED="1548852643325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-10" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$QFontDialog.coverage" NAME="QFontDialog Coverage Results" MODIFIED="1548506544774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-4" />
@@ -122,6 +135,7 @@
     <SUITE FILE_PATH="coverage/PyQt5_Practice$TreeEvent.coverage" NAME="TreeEvent Coverage Results" MODIFIED="1548861917900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-10" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$CellFontAndColor.coverage" NAME="CellFontAndColor Coverage Results" MODIFIED="1548857777975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-10" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$BasicTreeWidget.coverage" NAME="BasicTreeWidget Coverage Results" MODIFIED="1548861369318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-10" />
+    <SUITE FILE_PATH="coverage/PyQt5_Practice$WindowStyle.coverage" NAME="WindowStyle Coverage Results" MODIFIED="1550591971500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-16" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$NNSignal.coverage" NAME="NNSignal Coverage Results" MODIFIED="1550497750338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-15" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$QSpinBoxDemo.coverage" NAME="QSpinBoxDemo Coverage Results" MODIFIED="1548422591869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-3" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$PrintDialog.coverage" NAME="PrintDialog Coverage Results" MODIFIED="1548591733383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-9" />
@@ -130,6 +144,7 @@
     <SUITE FILE_PATH="coverage/PyQt5_Practice$LoadQSS.coverage" NAME="LoadQSS Coverage Results" MODIFIED="1550563028140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-16" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$OverrideSlot.coverage" NAME="OverrideSlot Coverage Results" MODIFIED="1550501075899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-15" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$LocalHTML.coverage" NAME="LocalHTML Coverage Results" MODIFIED="1550478816508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-13" />
+    <SUITE FILE_PATH="coverage/PyQt5_Practice$OpacityWindow.coverage" NAME="OpacityWindow Coverage Results" MODIFIED="1550578264415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-16" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$RunMainWin_TabOrder.coverage" NAME="RunMainWin_TabOrder Coverage Results" MODIFIED="1548331659392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-2" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$ListWidget.coverage" NAME="ListWidget Coverage Results" MODIFIED="1548853120243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-10" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$QSliderDemo.coverage" NAME="QSliderDemo Coverage Results" MODIFIED="1548599372673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-3" />
@@ -141,109 +156,98 @@
     <SUITE FILE_PATH="coverage/PyQt5_Practice$Background.coverage" NAME="Background Coverage Results" MODIFIED="1550561371237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-16" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$PyFactorial.coverage" NAME="PyFactorial Coverage Results" MODIFIED="1550480376698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-13" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$RunMainWin_FormLayout.coverage" NAME="RunMainWin_FormLayout Coverage Results" MODIFIED="1548314935734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-2" />
+    <SUITE FILE_PATH="coverage/PyQt5_Practice$ScaleImage.coverage" NAME="ScaleImage Coverage Results" MODIFIED="1550591305808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-16" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$RunMainWin_HorizontalLayout.coverage" NAME="RunMainWin_HorizontalLayout Coverage Results" MODIFIED="1548300692264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter-2" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$Splitter.coverage" NAME="Splitter Coverage Results" MODIFIED="1550495152365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-14" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$QWebEngineView.coverage" NAME="QWebEngineView Coverage Results" MODIFIED="1550502787897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-13" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$CellSize.coverage" NAME="CellSize Coverage Results" MODIFIED="1548859104251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-10" />
+    <SUITE FILE_PATH="coverage/PyQt5_Practice$WindowPattern.coverage" NAME="WindowPattern Coverage Results" MODIFIED="1550591761255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-16" />
     <SUITE FILE_PATH="coverage/PyQt5_Practice$ThreadUpdateUI.coverage" NAME="ThreadUpdateUI Coverage Results" MODIFIED="1550498461583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Chapter-15" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="PyQt5_Practice" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter-16/AnimationWindows.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-              <folding>
-                <element signature="e#97#107#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter-16/gitanim.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="23" />
-              <folding>
-                <element signature="e#103#113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter-16/LabelButtonBackground.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-              <folding>
-                <element signature="e#108#137#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter-16/LoadQSS.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#85#95#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Chapter-16/AnimWindow.py">
+        <entry file="file://$PROJECT_DIR$/src/ext/DataGrid.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter-16/style.qss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter-16/CommonHelper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter-16/Background1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="483">
+              <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
               <folding>
-                <element signature="e#143#153#0" expanded="true" />
+                <element signature="e#70#80#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chapter-16/Background2.py">
+        <entry file="file://$PROJECT_DIR$/src/ext/pyinstaller.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="140">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Chapter-17/CallWeatherWin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ext/DataGrid1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ext/Graph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#48#101#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ext/MyDB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ext/pyqtgraph_pyqt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -266,6 +270,7 @@
       <find>sortItems</find>
       <find>QMenu</find>
       <find>lambda</find>
+      <find>get</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -278,21 +283,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Chapter-13/qwebchannel.js" />
-        <option value="$PROJECT_DIR$/src/Chapter-13/MySharedObject.py" />
-        <option value="$PROJECT_DIR$/src/Chapter-14/AbsoluteLayout.py" />
-        <option value="$PROJECT_DIR$/src/Chapter-14/Calc.spec" />
-        <option value="$PROJECT_DIR$/src/Chapter-14/FormLayout.py" />
-        <option value="$PROJECT_DIR$/src/Chapter-14/GridForm.py" />
-        <option value="$PROJECT_DIR$/src/Chapter-14/Splitter.py" />
-        <option value="$PROJECT_DIR$/src/Chapter-14/VBoxLayout.py" />
-        <option value="$PROJECT_DIR$/src/Chapter-17/CallWeatherWin.py" />
-        <option value="$PROJECT_DIR$/src/Chapter-17/getWeatherInfo.py" />
-        <option value="$PROJECT_DIR$/src/Chapter-17/WeatherWin.py" />
-        <option value="$PROJECT_DIR$/src/Chapter-13/LocalHTML.py" />
-        <option value="$PROJECT_DIR$/src/Chapter-13/InnerHTML.py" />
-        <option value="$PROJECT_DIR$/src/Chapter-13/PyFactorial.py" />
-        <option value="$PROJECT_DIR$/src/Chapter-13/f.html" />
         <option value="$PROJECT_DIR$/src/Chapter-13/factorial.py" />
         <option value="$PROJECT_DIR$/src/Chapter-13/PyQtCallJS.py" />
         <option value="$PROJECT_DIR$/src/Chapter-14/HBoxLayout.py" />
@@ -316,7 +306,6 @@
         <option value="$PROJECT_DIR$/src/Chapter-15/MultiWindow1.py" />
         <option value="$PROJECT_DIR$/src/Chapter-15/NewDateDialog.py" />
         <option value="$PROJECT_DIR$/src/Chapter-15/DateDialog.py" />
-        <option value="$PROJECT_DIR$/src/Chapter-16/AbnormityWindow.py" />
         <option value="$PROJECT_DIR$/src/Chapter-16/Drawing.py" />
         <option value="$PROJECT_DIR$/src/Chapter-16/BasicQSS.py" />
         <option value="$PROJECT_DIR$/src/Chapter-16/DarkStyleSheet.py" />
@@ -329,10 +318,26 @@
         <option value="$PROJECT_DIR$/src/Chapter-16/CommonHelper.py" />
         <option value="$PROJECT_DIR$/src/Chapter-16/LoadQSS.py" />
         <option value="$PROJECT_DIR$/src/Chapter-16/AnimWindow.py" />
+        <option value="$PROJECT_DIR$/src/Chapter-17/WeatherWin.py" />
+        <option value="$PROJECT_DIR$/src/Chapter-17/getWeatherInfo.py" />
+        <option value="$PROJECT_DIR$/src/Chapter-17/CallWeatherWin.py" />
+        <option value="$PROJECT_DIR$/src/Chapter-16/AbnormityWindow.py" />
+        <option value="$PROJECT_DIR$/src/Chapter-16/MoveWindow.py" />
+        <option value="$PROJECT_DIR$/src/Chapter-16/OpacityWindow.py" />
+        <option value="$PROJECT_DIR$/src/Chapter-16/QSSSelector.py" />
+        <option value="$PROJECT_DIR$/src/Chapter-16/QSSSubControl.py" />
+        <option value="$PROJECT_DIR$/src/Chapter-16/ScaleImage.py" />
+        <option value="$PROJECT_DIR$/src/Chapter-16/WindowMaxMin.py" />
+        <option value="$PROJECT_DIR$/src/Chapter-16/WindowStyle.py" />
+        <option value="$PROJECT_DIR$/src/Chapter-16/WindowPattern.py" />
+        <option value="$PROJECT_DIR$/src/ext/DataGrid1.py" />
+        <option value="$PROJECT_DIR$/src/ext/Graph.py" />
+        <option value="$PROJECT_DIR$/src/ext/MyDB.py" />
+        <option value="$PROJECT_DIR$/src/ext/DataGrid.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -361,19 +366,6 @@
               <item name="PyQt5_Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyQt5_Practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter-16" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PyQt5_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyQt5_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter-16" type="462c0819:PsiDirectoryNode" />
-              <item name="QDarkStyleSheet-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PyQt5_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PyQt5_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter-17" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -381,6 +373,13 @@
               <item name="PyQt5_Practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ext" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyQt5_Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyQt5_Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ext" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -425,8 +424,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AnimWindow">
-    <configuration name="AnimWindow" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.DataGrid1">
+    <configuration name="DataGrid" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQt5_Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -434,12 +433,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Chapter-16" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ext" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Chapter-16/AnimWindow.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ext/DataGrid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -448,7 +447,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="AnimationWindows" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DataGrid1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQt5_Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -456,12 +455,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Chapter-16" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ext" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Chapter-16/AnimationWindows.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ext/DataGrid1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -470,7 +469,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LabelButtonBackground" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQt5_Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -478,12 +477,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Chapter-16" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ext" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Chapter-16/LabelButtonBackground.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ext/Graph.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -492,7 +491,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LoadQSS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MyDB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQt5_Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -500,12 +499,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Chapter-16" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ext" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Chapter-16/LoadQSS.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ext/MyDB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -514,7 +513,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gitanim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="WindowStyle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQt5_Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -527,7 +526,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Chapter-16/gitanim.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Chapter-16/WindowStyle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -538,11 +537,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.AnimWindow" />
-        <item itemvalue="Python.LoadQSS" />
-        <item itemvalue="Python.LabelButtonBackground" />
-        <item itemvalue="Python.gitanim" />
-        <item itemvalue="Python.AnimationWindows" />
+        <item itemvalue="Python.DataGrid1" />
+        <item itemvalue="Python.DataGrid" />
+        <item itemvalue="Python.MyDB" />
+        <item itemvalue="Python.Graph" />
+        <item itemvalue="Python.WindowStyle" />
       </list>
     </recent_temporary>
   </component>
@@ -564,7 +563,8 @@
       <workItem from="1548866689172" duration="2430000" />
       <workItem from="1548869225204" duration="1048000" />
       <workItem from="1550478195330" duration="13257000" />
-      <workItem from="1550559145307" duration="3979000" />
+      <workItem from="1550559145307" duration="7261000" />
+      <workItem from="1550579845811" duration="3588000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1548250327232</created>
@@ -752,18 +752,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95132000" />
+    <option name="totallyTimeSpent" value="102002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.22455573" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" weight="0.22778675" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.501002" side_tool="true" weight="0.22778675" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15182482" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21019109" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -778,7 +778,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32956383" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" weight="0.1898223" />
@@ -833,171 +833,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Chapter-16" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Chapter-13/PyQtCallJS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="56" column="25" lean-forward="true" selection-start-line="18" selection-end-line="56" selection-end-column="25" />
-          <folding>
-            <element signature="e#163#189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-13/tt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="34" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-13/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-14/HBoxLayout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#100#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-14/HBoxLayoutAlign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="e#96#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-14/VBoxLayout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-14/RightBottomButton.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-          <folding>
-            <element signature="e#99#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-14/Calc.spec">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-14/Splitter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="47" column="25" lean-forward="true" selection-start-line="8" selection-end-line="47" selection-end-column="25" />
-          <folding>
-            <element signature="e#99#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-14/FormLayout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#98#108#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-14/GridForm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding>
-            <element signature="e#88#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-14/Calc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-106">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#87#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-14/Stretch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#95#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-13/qwebchannel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-14/Stretch1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="19" />
-          <folding>
-            <element signature="e#97#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-15/SignalSlotDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" selection-start-line="8" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="e#103#132#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-15/MultiSignal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="55" column="31" lean-forward="true" selection-start-line="8" selection-end-line="55" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-15/NNSignal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="51" column="25" lean-forward="true" selection-start-line="9" selection-end-line="51" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-15/WinSignal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#88#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../Todo/pyqt5-master/src/SignalSlot/AutoSignalSlot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1113,16 +948,6 @@
     <entry file="file://$PROJECT_DIR$/src/Chapter-16/images/mask.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-16/AbnormityWindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-          <folding>
-            <element signature="e#166#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter-16/Drawing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -1163,39 +988,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-16/Background1.py">
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/QDarkStyleSheet-master/screenshots/QDarkStyle example 2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/QDarkStyleSheet-master/screenshots/QDarkStyle example 1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/QDarkStyleSheet-master/screenshots/01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/AnimWindow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="224">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding>
-            <element signature="e#143#153#0" expanded="true" />
+            <element signature="e#112#138#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-16/Background2.py">
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/LoadQSS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-16/AnimationWindows.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        <state relative-caret-position="170">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#97#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-16/gitanim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <element signature="e#103#113#0" expanded="true" />
+            <element signature="e#85#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1210,21 +1027,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-16/CommonHelper.py">
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/gitanim.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="56">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#103#113#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-16/QDarkStyleSheet-master/screenshots/QDarkStyle example 2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-16/QDarkStyleSheet-master/screenshots/QDarkStyle example 1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-16/QDarkStyleSheet-master/screenshots/01.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/AnimationWindows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding>
+            <element signature="e#97#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter-16/style.qss">
       <provider selected="true" editor-type-id="text-editor">
@@ -1233,20 +1054,191 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-16/LoadQSS.py">
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/CommonHelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="168">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/Background1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
-            <element signature="e#85#95#0" expanded="true" />
+            <element signature="e#143#153#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter-16/AnimWindow.py">
+    <entry file="file://$PROJECT_DIR$/src/Chapter-17/getWeatherInfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="22" />
+        <state relative-caret-position="308">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-17/WeatherWin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="58" selection-start-line="7" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/Background2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/MoveWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/OpacityWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="24" />
+          <folding>
+            <element signature="e#90#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/QSSSelector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="e#96#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/images/dropdown.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/AbnormityWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/WindowMaxMin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" selection-start-line="8" selection-end-line="55" selection-end-column="25" />
+          <folding>
+            <element signature="e#98#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/ScaleImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" selection-start-line="8" selection-end-line="36" selection-end-column="25" />
+          <folding>
+            <element signature="e#102#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/QSSSubControl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="24" />
+          <folding>
+            <element signature="e#105#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/WindowPattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="e#112#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-16/WindowStyle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="48" column="25" lean-forward="true" selection-start-line="16" selection-end-line="48" selection-end-column="25" />
+          <folding>
+            <element signature="e#146#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter-17/CallWeatherWin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ext/pyinstaller.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ext/DataGrid1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ext/pyqtgraph_pyqt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ext/Graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#48#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ext/MyDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ext/DataGrid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding>
+            <element signature="e#70#80#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

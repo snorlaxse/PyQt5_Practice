@@ -5,10 +5,9 @@
 @Desc: 项目实战：天气信息查询
 
 '''
-import sys
+import sys,requests
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from WeatherWin import Ui_Form
-import requests
 
 
 class MainWindow(QMainWindow):
