@@ -37,26 +37,25 @@ class dcmViewer(QWidget):
         layout1.addWidget(self.plotCanvas1)
         layout1.addWidget(self.plotCanvas2)
         layout1.addWidget(self.plotCanvas3)
-        layout.addLayout(layout1)
 
         layout2 = QHBoxLayout()
         self.scrollbar1 = QScrollBar(Qt.Horizontal)
-        self.scrollbar1.setMaximum(len(self.dcm_list))
+        self.scrollbar1.setMaximum(100)
         self.scrollbar1.sliderMoved.connect(lambda:self.sliderMoved("scrollbar1"))
-        layout2.addWidget(self.scrollbar1)
 
         self.scrollbar2 = QScrollBar(Qt.Horizontal)
-        self.scrollbar2.setMaximum(len(self.dcm_list))
+        self.scrollbar2.setMaximum(100)
         self.scrollbar2.sliderMoved.connect(lambda:self.sliderMoved("scrollbar2"))
-        layout2.addWidget(self.scrollbar2)
 
         self.scrollbar3 = QScrollBar(Qt.Horizontal)
-        self.scrollbar3.setMaximum(len(self.dcm_list))
+        self.scrollbar3.setMaximum(100)
         self.scrollbar3.sliderMoved.connect(lambda:self.sliderMoved("scrollbar3"))
+        layout2.addWidget(self.scrollbar1)
+        layout2.addWidget(self.scrollbar2)        
         layout2.addWidget(self.scrollbar3)
         
+        layout.addLayout(layout1)        
         layout.addLayout(layout2)
-        
         self.setLayout(layout)
  
     
@@ -66,11 +65,11 @@ class dcmViewer(QWidget):
         value = self.sender().value()
 
         if scrollbarName == 'scrollbar1':
-            self.plotCanvas1.plot3s(scrollbarName,self.dcm_ndarrays,value-1)
+            self.plotCanvas1.plot3s(scrollbarName,self.dcm_ndarrays,value)
         elif scrollbarName == 'scrollbar2':
-            self.plotCanvas2.plot3s(scrollbarName,self.dcm_ndarrays,value-1)
+            self.plotCanvas2.plot3s(scrollbarName,self.dcm_ndarrays,value)
         else:
-            self.plotCanvas3.plot3s(scrollbarName,self.dcm_ndarrays,value-1)
+            self.plotCanvas3.plot3s(scrollbarName,self.dcm_ndarrays,value)
 
 
     def loadFiles(self,file_dir):
@@ -113,16 +112,20 @@ class PlotCanvas(FigureCanvas):
         ax = self.figure.add_subplot(111)
 
         # 依据scrollbar.value值，调整某一维の数值
+        
         if scrollbarName == 'scrollbar1':
-            gray = dcm_ndarrays[value]
+            id = int(dcm_ndarrays.shape[0]*value/100-0.5)
+            gray = dcm_ndarrays[id,:,:]
             gray = scipy.misc.imresize(gray,(200,200))
             
         elif scrollbarName == 'scrollbar2':
-            gray = dcm_ndarrays[:,value,:]
+            id = int(dcm_ndarrays.shape[1]*value/100-0.5)
+            gray = dcm_ndarrays[:,id,:]
             gray = scipy.misc.imresize(gray,(200,200))
 
         else:
-            gray = dcm_ndarrays[:,:,value]
+            id = int(dcm_ndarrays.shape[2]*value/100-0.5)
+            gray = dcm_ndarrays[:,:,id]
             gray = scipy.misc.imresize(gray,(200,200))
 
         ax.imshow(gray,cmap='gray')
